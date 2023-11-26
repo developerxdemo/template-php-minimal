@@ -7,8 +7,8 @@ error_reporting(E_ALL);
 echo "Lets do this0<br>";
 
 //system('php composer.phar install');
-echo "Lets do thisafter install <br>";
-require 'vendor/autoload.php' or print("Can't find autoload.php. Did you install dependencies via composer?");
+echo "Lets do thisafter install now<br>";
+require 'vendor/autoload.php';
 
 echo "Lets do this0 again<br>";
 
